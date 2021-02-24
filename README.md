@@ -2,8 +2,7 @@
 
 # NLW4 - Moveit App
 
-![screen2](./home.png)
-![screen2](./home2.png)
+![screen2](./home.png) ![screen2](./home2.png)
 
 Aluno: Brenno
 
@@ -36,3 +35,11 @@ Aluno: Brenno
 - [x] Componente: Countdown
 - [x] Criando hook de countdown
 - [x] Código do desafio aula-02: "#jornadainfinita"
+
+### Aula-03
+
+- [x] Finalizar countdown
+- [x] Componente: ChallengeBox
+- [x] Contexto de desafios
+- [x] Regras de negocio
+- [x] Codigo do desafio aula-03: "#focopraticagrupo"
