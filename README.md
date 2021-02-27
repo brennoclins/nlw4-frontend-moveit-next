@@ -43,3 +43,10 @@ Aluno: Brenno
 - [x] Contexto de desafios
 - [x] Regras de negocio
 - [x] Codigo do desafio aula-03: "#focopraticagrupo"
+
+### Aula-04
+
+- [x] Estrutura de level
+- [x] Notificação web
+- [x] Tocando audio no desafio
+- [x] Código aula-04: "#neverstoplearning"
