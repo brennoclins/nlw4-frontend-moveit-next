@@ -1,7 +1,7 @@
 .challengeBoxContainer {
    height: 100%;
    
-   background: var(--white);
+   background: var(--text-white);
    border-radius: 5px;
    box-shadow: 0 0 60px rgba(0,0,0, 0.05);
 
@@ -64,7 +64,7 @@
 .challegeActive main strong {
     font-size: 2rem;
     font-weight: 600;
-    color: var(--title);
+    color: var(--text-title);
     margin: 1.5rem 0 1rem;
 }
 
@@ -73,6 +73,7 @@
 }
 
 .challegeActive footer {
+    padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -81,7 +82,7 @@
 
 .challegeActive footer button {
     height: 3rem;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,22 +90,32 @@
     border: 0;
     border-radius: 5px;
 
-    color: var(--white);
+    color: var(--text-white);
 
     font-size: 1rem;
     font-weight: 600;
 
-    transition: filter 0.2s;
-}
-
-.challegeActive footer button:hover {
-    filter: brightness(0.9);
+    transition: all 0.3s linear;
 }
 
 .challegeActive footer button.challengeFailedButton {
-    background: var(--red);
+    background: var(--failed-btn);
+}
+
+.challegeActive footer button.challengeFailedButton:hover {
+    background: var(--falied-hover-btn);
+    color: var(--failed-btn);
+    border-left: 3px solid var(--failed-btn);
+    border-right: 3px solid var(--failed-btn);
 }
 
 .challegeActive footer button.challengeSucceedButton {
-    background: var(--green);
+    background: var(--completed-btn);
+}
+
+.challegeActive footer button.challengeSucceedButton:hover {
+    background: var(--completed-hover-btn);
+    color: var(--completed-btn);
+    border-left: 3px solid var(--completed-btn);
+    border-right: 3px solid var(--completed-btn);
 }

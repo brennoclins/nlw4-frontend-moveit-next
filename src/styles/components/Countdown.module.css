@@ -3,7 +3,7 @@
    align-items: center;
    font-family: Rajdhani;
    font-weight: 600;
-   color: var(--title);
+   color: var(--text-title);
 }
 
 .countdownContainer  > div {
@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: space-evenly;
 
-    background: var(--white);
+    background: var(--text-white);
     box-shadow: 0 0 60px rgba(0,0,0, 0.05);
     border-radius: 5px;
     font-size: 8.5rem;
@@ -51,34 +51,34 @@
    border: 0;
    border-radius: 5px;
 
-   background: var(--blue);
-   color: var(--white);
+   background: var(--bg-screen-intro);
+   color: var(--text-white);
 
    font-size: 1.25rem;
    font-weight: 600;
 
-   transition: background-color 0.3s;
+   transition: all 0.4s linear;
 }
 
 .countdownButton:not(:disabled):hover {
-    background: var(--blue-dark);
+    background: linear-gradient(70deg, var(--text-sub-title),40%, var(--completed-btn), var(--completed-hover-btn));
 }
 
 .countdownButtonActive {
-    background: var(--white);
-    color: var(--title);
+    background: var(--text-white);
+    color: var(--text-title);
 }
 
 .countdownButtonActive:not(:disabled):hover {
-    background: var(--red);
-    color: var(--white);
+    background: var(--failed-btn);
+    color: var(--text-white);
 }
 
 .countdownButton:disabled {
-    background: var(--white);
+    background: var(--text-white);
     color: var(--text);
     cursor: not-allowed;
-    border-bottom: 0.4rem solid var(--green);
+    border-bottom: 0.4rem solid var(--completed-btn);
 }
 
 .countdownButton > img {

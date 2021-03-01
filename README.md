@@ -1,10 +1,41 @@
-![nlw4 screen](./bg-nlw4.png)
+![capa](./Capa.jpg)
 
-# NLW4 - Moveit App
 
-![screen2](./home.png) ![screen2](./home2.png)
+
+## NLW4 - MOVE.IT App
+
+
+![screen2](./00-screen.jpg) ![screen2](./01-screen.jpg)
+
+![screen2](./02-screen.jpg) ![screen2](./03-screen.jpg)
 
 Aluno: Brenno
+
+#### Tabela de cores
+
+```css
+:root {
+    --bg-screen-intro: rgba(54, 104, 14, 0.75);
+    --background: rgba(255, 211, 192, 0.85);
+    --gray-line: rgba(220, 221, 224, 1);
+
+    --completed-btn: rgba(98, 205, 15, 1);
+    --completed-hover-btn: rgba(147, 238, 127, 0.308);
+
+    --failed-btn: rgba(255, 1, 0, 1);
+    --falied-hover-btn: rgba(247, 113, 113, 0.3);
+    
+    --hover-btb: rgba(121, 216, 0, 0.29);
+    
+    --text: rgba(102, 102, 102, 1);
+    --text-title: rgba(255, 100, 0, 1);
+    --text-sub-title: rgb(35, 85, 21);
+    --text-white: rgba(255, 255, 255, 1);
+}
+
+```
+
+![nlw4 screen](./bg-nlw4.png)
 
 ### aula - 01 Trilha ReactJS
 - [x] Configuração do ambiente de desenvolvimento
@@ -50,3 +81,10 @@ Aluno: Brenno
 - [x] Notificação web
 - [x] Tocando audio no desafio
 - [x] Código aula-04: "#neverstoplearning"
+
+### Aula-05
+
+-[x]
+-[x] Modal level up
+-[x] Código da aula-05: "#missincomplete"
+

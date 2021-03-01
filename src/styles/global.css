@@ -1,4 +1,23 @@
 :root {
+    --bg-screen-intro: rgba(54, 104, 14, 0.75);
+    --background: rgba(255, 211, 192, 0.85);
+    --gray-line: rgba(220, 221, 224, 1);
+
+    --completed-btn: rgba(98, 205, 15, 1);
+    --completed-hover-btn: rgba(147, 238, 127, 0.308);
+
+    --failed-btn: rgba(255, 1, 0, 1);
+    --falied-hover-btn: rgba(247, 113, 113, 0.3);
+    
+    --hover-btb: rgba(121, 216, 0, 0.29);
+    
+    --text: rgba(102, 102, 102, 1);
+    --text-title: rgba(255, 100, 0, 1);
+    --text-sub-title: rgb(35, 85, 21);
+    --text-white: rgba(255, 255, 255, 1);
+}
+
+/* :root {
     --white: #fff;
     --background: #f2f3f5;
     --gray-line: #dcdde0;
@@ -10,7 +29,7 @@
     --blue: #5965e0;
     --blue-dark: #4953b8;
     --blue-twitter: #2aa9e0;
-}
+} */
 
 * {
     margin: 0;
