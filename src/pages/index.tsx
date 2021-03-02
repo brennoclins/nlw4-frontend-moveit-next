@@ -9,6 +9,7 @@ import { Countdown } from '../components/Countdown'
 import { Profile } from '../components/Profile'
 
 import styles from '../styles/pages/Home.module.css'
+import { Sidebar } from '../components/Sidebar'
 
 interface HomeProps {
   level: number;
@@ -27,6 +28,8 @@ export default function Home(props: HomeProps) {
         <Head>
           <title>Inicio | move.it</title>
         </Head>
+
+        <Sidebar />
 
         <ExperienceBar />
 

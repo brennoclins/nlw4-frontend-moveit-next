@@ -1,0 +1,55 @@
+.sidebar {
+  /* flex: 1;
+  display: flex; */
+}
+
+.sidebarContainer {
+  background: linear-gradient(190deg, var(--text-white),15%, var(--background) 40%);
+
+  position: absolute;
+  min-width: 80px;
+  height: 100vw;
+  
+  left: 0px;
+  top: 0px;
+}
+
+.sidebarContainer button {
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  padding: 1rem;
+
+}
+
+.sidebarContainer button:hover {
+  background: var(--text-white);
+}
+
+.sidebarLogo {
+  position: absolute;
+
+  top: 3.9%;
+  left: 10%;
+  /* right: 10%; */
+  /* bottom: 90.98%; */
+}
+
+.sidebarContainer img {
+  padding-top: .3rem;
+  max-width: 2rem;
+}
+
+.sidebarHome {
+  position: absolute;
+  
+  top: 12rem;
+  left: 10%;
+}
+
+.sidebarAward {
+  position: absolute;
+  
+  top: 17rem;
+  left: 10%;
+}
