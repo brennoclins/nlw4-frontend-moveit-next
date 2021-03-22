@@ -1,7 +1,7 @@
-.sidebar {
-  /* flex: 1;
-  display: flex; */
-}
+/* .sidebar {
+  flex: 1;
+  display: flex;
+} */
 
 .sidebarContainer {
   background: linear-gradient(190deg, var(--text-white),15%, var(--background) 40%);
